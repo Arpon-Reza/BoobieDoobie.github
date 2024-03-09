@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 300;
+} 
+a{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #dad7cd;
+}
+
+input{
+    border: 0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+button{
+    background-color: antiquewhite;
+    border: 0;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+
+/* nav */
+header{
+    /* background-color: bisque; */
+}
+header .BD{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+.navigation-bar{
+    background-color: #3a5a40;
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+    
+}
+.nav-container{
+    /* background-color: aqua; */
+    
+    
+}
+
+
+.nav-container .nav-des{
+    text-align: center;
+    color: bisque;
+}
+
+
+.nav-container .nav-des li{
+    display: inline-block;
+    margin-right: 150px;
+    
+
+   
+}
+.nav-container .nav-des li a{
+    color: bisque;
+}
+
+
+/* Main Section Starts Here */
+
+main{
+    margin-top: 50px;
+}
+
+.Greetings{
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+.influence{
+    margin-top: 50px;
+   
+}
+.join-contain{
+    display: flex;
+    /* background-color: blue; */
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid #3a5a40 ; */
+    justify-content: space-evenly;
+    /* gap: 10%; */
+    /* margin: 0 auto; */
+    /* position: relative; */
+    /* left: 10%;    */
+    padding: 15px;
+    
+}
+
+.join-us{
+    /* background-color: blueviolet; */
+    height: 150px;
+    width: 520px;
+    /* border: 2px solid black; */
+    padding-left: 20px;
+    margin-top: 50px;
+
+    
+}
+.join-us .des{
+    padding: 30px;
+}
+
+.maal img{
+    height: 100px;
+    width: 150px;
+}
+
+.discount{
+    height: 150px;
+    width: 520px;
+    /* background-color: cornflowerblue;
+    border: 2px solid black; */
+    padding-right: 0px;
+    /* position: relative; */
+    /* margin: 0 auto; */
+    margin-top: 50px;
+}
+.discount img{
+    height: 80px;
+    display: block;
+    /* margin-right: 0 auto; */
+}
+.discount  a{
+    /* margin-left: 40px; */
+    color: hsl(236, 100%, 67%);
+    
+    margin: 0 auto;
+}
+.discount  a:hover{
+    color: rgb(12, 0, 245);
+}
+.discount .des{
+    padding: 20px;
+}
+.img a{
+   
+}
+span{
+    color: red;
+}
+
+
+
+
+.donation-container{
+    margin-top:200px;
+}
+.container-mas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.don-des{
+    height: 50px;
+    width: 300px;
+    
+}
+.don-des p{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.category{
+    margin-top: 50px;
+}
+.cat-ghor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cat-contain{
+    height: 300px;
+    width: 300px;
+}
+
+.maal{
+    margin: 10px;
+}
